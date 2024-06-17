@@ -4,7 +4,7 @@ import env from "@/env";
 
 import * as schema from "./schema";
 
-const connection = await mysql.createConnection({
+const connection = mysql.createPool({
   uri: env.DATABASE_URL,
 });
 
