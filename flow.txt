@@ -1,0 +1,6 @@
+pnpm init
+npx tsc --init
+add "outDir" to "./dist" and baseUrl to "." in the tsconfig
+
+after adding the necessary dependencies and configurations,
+run pnpm build
